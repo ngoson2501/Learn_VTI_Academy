@@ -1,0 +1,39 @@
+.main{
+
+    width: auto;
+    height: auto;
+    background-color: rgb(181, 83, 83);
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    width: fit-content;
+    gap: 5px;
+}
+
+.header{
+    background-color: rgb(55, 55, 146);
+    grid-area: 1/1/2/5;
+    
+}
+
+.nav{
+
+    background-color: rgb(101, 191, 195);
+    grid-area: 2/1/5/2;
+}
+
+
+.sidebar{
+    grid-area: 2/4/5/5;
+    background-color: rgb(101, 191, 195);
+}
+.content{
+
+    background-color: aquamarine;
+    grid-area: 2/2/5/4;
+}
+
+.footer{
+    background-color: rgb(55, 55, 146);
+    grid-area: 5/1/6/5;
+}

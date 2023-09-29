@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title 123</title>
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        #grid-container {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px 100px 100px;
+            margin-top: 10px;
+            background-color: blue;
+            width: fit-content;
+            padding: 20px;
+        }
+        .item-grid {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="grid-container">
+        <div class="item-grid" style="grid-area: 1/1/2/5">Holy grid layout</div>
+        <div class="item-grid" style="grid-area: 2/1/5/2">2</div>
+        <div class="item-grid" style="grid-area: 2/2/5/4">3</div>
+        <div class="item-grid" style="grid-area: 2/4/5/5">4</div>
+        <div class="item-grid" style="grid-area: 5/1/6/5">5</div>
+    </div>
+</body>
+</html>
