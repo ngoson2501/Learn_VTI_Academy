@@ -1,0 +1,555 @@
+#content{
+    /* background-color: rgb(133, 72, 72); */
+    width: 100%;
+    height: 3000px;
+    /* z-index: 100; */
+    
+}
+
+
+.banner{
+    background-color: blueviolet;
+    width: 100%;
+    height: 720px;
+    /* background-image: url(./img/banner-web-VTI-Japan-se-tham-gia-trien-lamTuan-le-CNTT-1360x540-1.jpg);
+    background-repeat: no-repeat;
+    background-size:contain ; */
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+.button-slide-text-banner{
+width: 100%;
+height: 400px;
+position: absolute;
+/* background-color: yellow; */
+z-index: 200;
+display: flex;
+flex-direction: row;
+}
+
+
+
+
+
+.button-slide-1{
+    /* background-color: aqua; */
+    flex-grow: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button-slide-1 div{
+    background-color: rgba(190, 72, 72, 0);
+    width: 40px;
+    height: 40px;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+.button-slide-2{
+    /* background-color: aqua; */
+    flex-grow: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+
+.button-slide-2 div{
+    background-color: rgba(190, 72, 72, 0);
+    width: 40px;
+    height: 40px;
+    border: solid 3px rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+.text-banner{
+   /*  background-color: coral; */
+    flex-grow: 8;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+.text-big{
+/* background-color: blue; */
+flex-grow: 5;
+max-width: 50%;
+display: flex;
+/* justify-content: center;
+align-items: center; */
+
+}
+
+
+.text-big p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:4em;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.text-small{
+    /* background-color: rgb(59, 59, 157); */
+    flex-grow: 2;
+    max-width: 50%;
+    
+}
+
+
+.text-small p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+.box-button{
+/* background-color: rgb(30, 30, 74); */
+flex-grow: 1.5;
+max-width: 50%;
+}
+
+
+
+
+.box-button button{
+    cursor: pointer;
+}
+
+.box-button button[type="button"]{
+    background-color: rgba(190, 72, 72, 0);
+    color: rgb(255, 255, 255);
+    border: solid 2px  white;
+    border-radius:20px 20px 20px 20px;
+    padding:10px 40px 10px 40px;
+    font-size: 15px;
+    font-weight: 700;
+    box-sizing: border-box;
+    outline: none;
+    /* font-size: 20px; */
+}
+
+
+.box-button button:hover{
+    color: rgb(124, 124, 124);
+    background-color: white
+}
+
+
+
+
+
+.banner:hover .button-slide-1 div{
+    display:block;
+}
+
+.banner:hover .button-slide-2 div{
+    display:block;
+}
+
+
+
+
+
+.services{
+    /* background-color: rgb(22, 23, 36); */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .title-1{
+    flex-grow: 4;
+   /*  width: 100%;
+    height: 120px; */
+    background-color: rgb(236, 237, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 20px; */
+}
+
+.services .title-1 p{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.services .list-services{
+    flex-grow: 7;
+    padding-top: 50px;
+    /* background-color: rgb(87, 162, 228); */
+    background-color: rgb(236, 237, 246);
+    display: grid;
+    grid-template-columns: 4vw 23vw 23vw 23vw 4vw;
+    grid-template-rows: 300px 300px;
+    width: fit-content;
+    gap: 5vw;
+}
+
+.services .list-services h2{
+    color: rgb(0, 162, 255);
+}
+
+.services .list-services p{
+    color: rgb(114, 114, 114);
+}
+
+
+
+
+
+
+
+
+.list-services-1{
+
+    /* background-color: rgb(30, 0, 255); */
+    grid-area: 1/2/2/3;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.list-services-1 .img-sv-1 {
+  
+    background-image: url(./img/Group-264.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: bisque; */
+    flex-grow: 4;
+    
+}
+
+
+.list-services-1 .title-sv-1{
+    /* background-color: aqua; */
+    flex-grow: 1.5;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.list-services-1 .title-sv-1 h2{
+    /* background-color: blueviolet; */
+    font-family: sans-serif;
+    
+}
+
+
+.list-services-1 .text-sv-1{
+   /*  background-color: brown; */
+    flex-grow: 5;
+}
+
+.list-services-1 .text-sv-1 p{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.list-services-2{
+   /*  background-color: rgb(0, 67, 45); */
+    grid-area: 1/3/2/4;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+
+.list-services-2 .img-sv-2 {
+  
+    background-image: url(./img/Group-262.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: bisque; */
+    flex-grow: 4;
+    
+}
+
+
+.list-services-2 .title-sv-2{
+    /* background-color: aqua; */
+    flex-grow: 1.5;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.list-services-2 .title-sv-2 h2{
+   /*  background-color: blueviolet; */
+    font-family: sans-serif;
+    
+}
+
+
+.list-services-2 .text-sv-2{
+    /* background-color: brown; */
+    flex-grow: 5;
+}
+
+.list-services-2 .text-sv-2 p{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+.list-services-3{
+    /* background-color: rgb(98, 112, 108); */
+    grid-area: 1/4/2/5;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+
+.list-services-3 .img-sv-3 {
+  
+    background-image: url(./img/Group-339.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: bisque; */
+    flex-grow: 4;
+    
+}
+
+
+.list-services-3 .title-sv-3{
+   /*  background-color: aqua; */
+    flex-grow: 1.5;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.list-services-3 .title-sv-3 h2{
+    /* background-color: blueviolet; */
+    font-family: sans-serif;
+    
+}
+
+
+.list-services-3 .text-sv-3{
+    /* background-color: brown; */
+    flex-grow: 5;
+}
+
+.list-services-3 .text-sv-3 p{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
+
+
+
+.list-services-4{
+    /* background-color: rgb(175, 195, 103); */
+    grid-area: 2/2/3/3;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    
+}
+
+
+
+.list-services-4 .img-sv-4 {
+  
+    background-image: url(./img/Group-336.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+   /*  background-color: bisque; */
+    flex-grow: 4;
+    
+}
+
+
+.list-services-4 .title-sv-4{
+   /*  background-color: aqua; */
+    flex-grow: 1.5;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.list-services-4 .title-sv-4 h2{
+   /*  background-color: blueviolet; */
+    font-family: sans-serif;
+    
+}
+
+
+.list-services-4 .text-sv-4{
+    /* background-color: brown; */
+    flex-grow: 5;
+}
+
+.list-services-4 .text-sv-4 p{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+.list-services-5{
+
+    /* background-color: rgb(61, 96, 5); */
+    grid-area: 2/3/3/4;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+
+
+.list-services-5 .img-sv-5 {
+  
+    background-image: url(./img/Group-338.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+   /*  background-color: bisque; */
+    flex-grow: 4;
+    
+}
+
+
+.list-services-5 .title-sv-5{
+   /*  background-color: aqua; */
+    flex-grow: 1.5;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.list-services-5 .title-sv-5 h2{
+   /*  background-color: blueviolet; */
+    font-family: sans-serif;
+    
+}
+
+
+.list-services-5 .text-sv-5{
+    /* background-color: brown; */
+    flex-grow: 5;
+}
+
+.list-services-5 .text-sv-5 p{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
+
+
+
+
+.list-services-6{
+
+    /* background-color: rgb(30, 0, 255); */
+    grid-area: 2/4/3/5;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+
+.list-services-6 .img-sv-6 {
+  
+    background-image: url(./img/Group-337.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+   /*  background-color: bisque; */
+    flex-grow: 4;
+    
+}
+
+
+.list-services-6 .title-sv-6{
+   /*  background-color: aqua; */
+    flex-grow: 1.5;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.list-services-6 .title-sv-6 h2{
+    /* background-color: blueviolet; */
+    font-family: sans-serif;
+    
+}
+
+
+.list-services-6 .text-sv-6{
+   /*  background-color: brown; */
+    flex-grow: 5;
+}
+
+.list-services-6 .text-sv-6 p{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
